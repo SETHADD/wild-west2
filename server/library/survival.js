@@ -16,4 +16,4 @@ const survival = (request,response)=>{
     response.json(outcome)
   
 }
-  module.exports = survival();
+  module.exports = survival;
