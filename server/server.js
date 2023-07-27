@@ -19,5 +19,4 @@ app.get("/survival",survival)
 app.get("/maths",maths)
 
 
-
 app.listen(PORT,()=>console.log(`we are listening on port ${PORT}`))
