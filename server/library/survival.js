@@ -13,7 +13,7 @@ const survival = (request,response)=>{
     ];
     const randomNum = Math.floor(Math.random() * scenarios.length);
     const outcome = scenarios[randomNum];
-    return(response.json(outcome))
+    response.json(outcome)
   
 }
   module.exports = survival();
