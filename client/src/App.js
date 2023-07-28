@@ -7,7 +7,7 @@ function App() {
 const [handleClick,sethandleClick] = useState('')
 
 const handleAPI = async()=> {
-    const API = `http://localhost:8080/survival`
+    const API = `https://wildwest2.onrender.com/survival`
     const res = await axios.get(API)
     sethandleClick(res.data)
     console.log(res)
