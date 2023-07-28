@@ -18,6 +18,4 @@ app.get('/', (request,response)=>response.json("your name is here"))
 app.get("/survival",survival)
 
 app.get("/maths",maths)
-
-
 app.listen(PORT,()=>console.log(`we are listening on port ${PORT}`))
